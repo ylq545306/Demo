@@ -1,0 +1,38 @@
+package com.skywin.drools.dongtai.model;
+
+/**
+ * Created by yanglq on 2018/5/22.
+ */
+public class Address {
+
+    private String postcode;
+
+    private String street;
+
+    private String state;
+
+    public String getPostcode() {
+        return postcode;
+    }
+
+    public void setPostcode(String postcode) {
+        this.postcode = postcode;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+}

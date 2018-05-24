@@ -1,0 +1,7 @@
+package com.yanglq;
+rule "Postcode should be filled with exactly 5 numbers"
+
+    when
+    then
+		System.out.println("logs in rule :check success! 1111");
+end
